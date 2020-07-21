@@ -6,7 +6,7 @@ A [Smalltalk (Cuis)](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) clien
 After cloning this repository, open a workspace in Cuis and type:
 
 ```Smalltalk 
-Feature require: #'Covid19'. 
+Feature require: #Covid19. 
 ```
 
 And then:
