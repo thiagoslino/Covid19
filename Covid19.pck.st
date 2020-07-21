@@ -1,28 +1,27 @@
-'From Cuis 5.0 [latest update: #4254] on 21 July 2020 at 3:06:30 pm'!
+'From Cuis 5.0 [latest update: #4254] on 21 July 2020 at 4:08:35 pm'!
 'Description A cuis client for https://covid19api.com/'!
 !provides: 'Covid19' 1 1!
 !requires: 'WebClient' 1 19 nil!
-SystemOrganization addCategory: #'Covid19-Core'!
-SystemOrganization addCategory: #'Covid19-Tests'!
+SystemOrganization addCategory: #'Covid19-ApiClient'!
 
 
-!classDefinition: #Covid19ApiClientTest category: #'Covid19-Tests'!
+!classDefinition: #Covid19ApiClientTest category: #'Covid19-ApiClient'!
 TestCase subclass: #Covid19ApiClientTest
 	instanceVariableNames: 'client'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Covid19-Tests'!
-!classDefinition: 'Covid19ApiClientTest class' category: #'Covid19-Tests'!
+	category: 'Covid19-ApiClient'!
+!classDefinition: 'Covid19ApiClientTest class' category: #'Covid19-ApiClient'!
 Covid19ApiClientTest class
 	instanceVariableNames: ''!
 
-!classDefinition: #Covid19ApiClient category: #'Covid19-Core'!
+!classDefinition: #Covid19ApiClient category: #'Covid19-ApiClient'!
 Object subclass: #Covid19ApiClient
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Covid19-Core'!
-!classDefinition: 'Covid19ApiClient class' category: #'Covid19-Core'!
+	category: 'Covid19-ApiClient'!
+!classDefinition: 'Covid19ApiClient class' category: #'Covid19-ApiClient'!
 Covid19ApiClient class
 	instanceVariableNames: ''!
 
