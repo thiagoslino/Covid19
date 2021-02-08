@@ -1,6 +1,6 @@
 # Covid19
 ## What is it?
-A [Smalltalk (Cuis)](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) client for https://covid19api.com/
+A [Smalltalk (Cuis)](https://github.com/Cuis-Smalltalk/Cuis-Smalltalk-Dev) client for https://disease.sh/ covid-19 api
 
 ## Running
 After cloning this repository, open a workspace in Cuis and type:
@@ -17,7 +17,7 @@ client := Covid19ApiClient  new.
 
 client getWorldTotal. 
 
-client getFromDayOneByCountry: 'Brazil'. 
+client getHistoricalCountry: 'Brazil'. 
 
 client getCountries. 
 
