@@ -17,7 +17,7 @@ client := Covid19ApiClient  new.
 
 client getWorldTotal. 
 
-client getHistoricalCountry: 'Brazil'. 
+client getHistoricalByCountry: 'Brazil'. 
 
 client getCountries. 
 
