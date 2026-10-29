@@ -1,7 +1,7 @@
 'From Cuis 5.0 [latest update: #4528] on 8 February 2021 at 3:28:10 pm'!
 'Description A cuis client for disease.sh covid-19 api'!
-!provides: 'Covid19' 1 3!
-!requires: 'WebClient' 1 20 nil!
+!provides: 'Covid19' '1.3.0'!
+!requires: 'WebClient' '1.20.0' '1.*.*'!
 SystemOrganization addCategory: 'Covid19-ApiClient'!
 
 
